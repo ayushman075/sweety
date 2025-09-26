@@ -4,6 +4,7 @@ import express from 'express';
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import prisma from './config/db.config';
+import router from './routes';
 
 
 // Initialize Express app
@@ -35,7 +36,7 @@ app.use(express.static("public"));
 app.use(cookieParser());
 
 
-
+app.use('/api', router);
 
 
 
