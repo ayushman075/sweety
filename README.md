@@ -112,6 +112,9 @@ Start backend server
 ### 🍰 Sweet Dashboard
 ![Sweet Dashboard](./screenshots/sweet-dashboard.png)
 
+### 🍰 Sweet Purchase
+![Sweet Purchase](./screenshots/purchase.png)
+
 ---
 
 ## 🧠 My AI Usage
