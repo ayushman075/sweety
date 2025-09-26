@@ -150,7 +150,7 @@ const createSweet = AsyncHandler(async (req: AuthenticatedRequest, res: Response
             imageUrl,
             inventory: {
               create: {
-                quantity,
+                quantity:Number(quantity),
                 minStockLevel: 5,
                 maxStockLevel: quantity * 10,
                 reorderPoint: Math.max(10, Math.floor(quantity * 0.2))
