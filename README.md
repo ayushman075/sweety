@@ -55,7 +55,7 @@ This project follows **Red → Green → Refactor** workflow:
 
 ## Cloning Reposiitory
 ```
-git clone [https://github.com/yourusername/sweet-shop.git](https://github.com/ayushman075/sweety)
+git clone [https://github.com/ayushman075/sweety.git](https://github.com/ayushman075/sweety)
 cd sweety
 ```
 ### Setup Backend
